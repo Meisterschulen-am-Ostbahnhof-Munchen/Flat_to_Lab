@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="20" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -178,6 +178,7 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
+<fusionsync huburn="a.YnVzaW5lc3M6bXNtdWM" projecturn="a.YnVzaW5lc3M6bXNtdWMjRDIwMjAwMTIwMjU2OTQxODU2" f3durn="urn:adsk.wipprod:dm.lineage:QmtsZ3qZQ9ytfV7XQqqriw" pcbguid="01948bbf-6f01-48e0-815b-c28f5031df27" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="5a3ab865-8e21-46af-8b72-ea20cd0a09d1" lastsyncedrevisionid="5a3ab865-8e21-46af-8b72-ea20cd0a09d1" lastboardhashguid="09fbf057-cce6-6e30-c241-b7bcafcd1ed8" lastpushedtime="2021-10-22T15:49:30Z" linktopcb3d="true"/>
 <plain>
 <wire x1="-60" y1="50" x2="-60" y2="-50" width="0" layer="20"/>
 <wire x1="-60" y1="-50" x2="-50" y2="-60" width="0" layer="20" curve="90"/>
@@ -685,6 +686,164 @@ Copyright: Würth Elektronik</description>
 </package3d>
 </packages3d>
 </library>
+<library name="Wurth_Connectors_WR-FAST" urn="urn:adsk.eagle:library:15267884">
+<description>&lt;BR&gt;Wurth Elektronik - Connectors - Wire-to-Board Connectors - WR-FAST &lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2020a, 2020-08-11&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="638207222006" urn="urn:adsk.eagle:footprint:15267896/2" library_version="5">
+<description>&lt;b&gt;WR-FAST 5.08 mm THT Male Header Vertical Blade 2863
+&lt;br&gt;&lt;/b&gt;6pins</description>
+<pad name="1" x="-12.7" y="2.54" drill="1.5"/>
+<pad name="4" x="2.54" y="2.54" drill="1.5"/>
+<pad name="5" x="7.62" y="2.54" drill="1.5"/>
+<pad name="A5" x="7.62" y="-2.54" drill="1.5"/>
+<pad name="2" x="-7.62" y="2.54" drill="1.5"/>
+<pad name="3" x="-2.54" y="2.54" drill="1.5"/>
+<pad name="6" x="12.7" y="2.54" drill="1.5"/>
+<pad name="A6" x="12.7" y="-2.54" drill="1.5"/>
+<pad name="A4" x="2.54" y="-2.54" drill="1.5"/>
+<pad name="A3" x="-2.54" y="-2.54" drill="1.5"/>
+<pad name="A2" x="-7.62" y="-2.54" drill="1.5"/>
+<pad name="A1" x="-12.7" y="-2.54" drill="1.5"/>
+<wire x1="-14.76" y1="5" x2="14.76" y2="5" width="0.1" layer="51"/>
+<wire x1="14.76" y1="5" x2="14.76" y2="-3.97" width="0.1" layer="51"/>
+<wire x1="14.76" y1="-3.97" x2="14.76" y2="-5.9" width="0.1" layer="51"/>
+<wire x1="14.76" y1="-5.9" x2="-14.76" y2="-5.9" width="0.1" layer="51"/>
+<wire x1="-14.76" y1="-5.9" x2="-14.76" y2="-3.97" width="0.1" layer="51"/>
+<wire x1="-14.76" y1="-3.97" x2="-14.76" y2="5" width="0.1" layer="51"/>
+<wire x1="-14.86" y1="5.1" x2="14.86" y2="5.1" width="0.2" layer="21"/>
+<wire x1="14.86" y1="5.1" x2="14.86" y2="-6" width="0.2" layer="21"/>
+<wire x1="14.86" y1="-6" x2="-14.86" y2="-6" width="0.2" layer="21"/>
+<wire x1="-14.86" y1="-6" x2="-14.86" y2="5.1" width="0.2" layer="21"/>
+<wire x1="-14.76" y1="-3.97" x2="14.76" y2="-3.97" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-15.06" y="5.3"/>
+<vertex x="15.06" y="5.3"/>
+<vertex x="15.06" y="-6.2"/>
+<vertex x="-15.06" y="-6.2"/>
+</polygon>
+<text x="0" y="5.85" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.7" y="-8.25" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-13" y="-0.4" size="1.016" layer="21">1</text>
+</package>
+<package name="638207222004" urn="urn:adsk.eagle:footprint:15267898/2" library_version="5">
+<description>&lt;b&gt;WR-FAST 5.08 mm THT Male Header Vertical Blade 2863
+&lt;br&gt;&lt;/b&gt;4pins</description>
+<pad name="1" x="-7.62" y="2.54" drill="1.5"/>
+<pad name="4" x="7.62" y="2.54" drill="1.5"/>
+<pad name="A4" x="7.62" y="-2.54" drill="1.5"/>
+<pad name="A1" x="-7.62" y="-2.54" drill="1.5"/>
+<pad name="2" x="-2.54" y="2.54" drill="1.5"/>
+<pad name="3" x="2.54" y="2.54" drill="1.5"/>
+<pad name="A3" x="2.54" y="-2.54" drill="1.5"/>
+<pad name="A2" x="-2.54" y="-2.54" drill="1.5"/>
+<wire x1="-9.68" y1="5" x2="9.68" y2="5" width="0.1" layer="51"/>
+<wire x1="9.68" y1="5" x2="9.68" y2="-3.97" width="0.1" layer="51"/>
+<wire x1="9.68" y1="-3.97" x2="9.68" y2="-5.9" width="0.1" layer="51"/>
+<wire x1="9.68" y1="-5.9" x2="-9.68" y2="-5.9" width="0.1" layer="51"/>
+<wire x1="-9.68" y1="-5.9" x2="-9.68" y2="-3.97" width="0.1" layer="51"/>
+<wire x1="-9.68" y1="-3.97" x2="-9.68" y2="5" width="0.1" layer="51"/>
+<wire x1="-9.78" y1="5.1" x2="9.78" y2="5.1" width="0.2" layer="21"/>
+<wire x1="9.78" y1="5.1" x2="9.78" y2="-6" width="0.2" layer="21"/>
+<wire x1="9.78" y1="-6" x2="-9.78" y2="-6" width="0.2" layer="21"/>
+<wire x1="-9.78" y1="-6" x2="-9.78" y2="5.1" width="0.2" layer="21"/>
+<wire x1="-9.68" y1="-3.97" x2="9.68" y2="-3.97" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-9.98" y="5.3"/>
+<vertex x="9.98" y="5.3"/>
+<vertex x="9.98" y="-6.2"/>
+<vertex x="-9.98" y="-6.2"/>
+</polygon>
+<text x="0" y="5.85" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.7" y="-8.25" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-8" y="-0.5" size="1.016" layer="21">1</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="638207222006" urn="urn:adsk.eagle:package:15267959/3" type="model" library_version="5">
+<description>&lt;b&gt;WR-FAST 5.08 mm THT Male Header Vertical Blade 2863
+&lt;br&gt;&lt;/b&gt;6pins</description>
+<packageinstances>
+<packageinstance name="638207222006"/>
+</packageinstances>
+</package3d>
+<package3d name="638207222004" urn="urn:adsk.eagle:package:15267961/3" type="model" library_version="5">
+<description>&lt;b&gt;WR-FAST 5.08 mm THT Male Header Vertical Blade 2863
+&lt;br&gt;&lt;/b&gt;4pins</description>
+<packageinstances>
+<packageinstance name="638207222004"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -723,26 +882,26 @@ design rules under a new name.</description>
 <param name="mdSmdSmd" value="5mil"/>
 <param name="mdViaViaSameLayer" value="6mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="40mil"/>
+<param name="mdCopperDimension" value="0mil"/>
 <param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="6mil"/>
 <param name="msDrill" value="0.3mm"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
-<param name="rvPadTop" value="0.25"/>
+<param name="rvPadTop" value="1"/>
 <param name="rvPadInner" value="0.25"/>
-<param name="rvPadBottom" value="0.25"/>
+<param name="rvPadBottom" value="1"/>
 <param name="rvViaOuter" value="0.25"/>
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
 <param name="rlMinPadTop" value="10mil"/>
-<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMaxPadTop" value="40mil"/>
 <param name="rlMinPadInner" value="10mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
 <param name="rlMinPadBottom" value="10mil"/>
-<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMaxPadBottom" value="40mil"/>
 <param name="rlMinViaOuter" value="8mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
 <param name="rlMinViaInner" value="8mil"/>
@@ -878,68 +1037,238 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="IN0" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" package="WA-SMSI_9774100482" package3d_urn="urn:adsk.eagle:package:14321898/2" value="M4 x 10mm" x="20" y="40" smashed="yes">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9774100482.pdf" x="41.59" y="32.38" size="1.778" layer="27" display="off"/>
-<attribute name="INNER-DIAMETER" value="5.2mm" x="41.59" y="32.38" size="1.778" layer="27" display="off"/>
-<attribute name="INNER-THREAD-LENGTH" value="-" x="20" y="40" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="20" y="45.5" size="5.08" layer="25" align="bottom-center"/>
-<attribute name="OUTER-DIAMETER" value="8.2mm" x="41.59" y="32.38" size="1.778" layer="27" display="off"/>
-<attribute name="PART-NUMBER" value=" 9774100482 " x="41.59" y="32.38" size="1.778" layer="27" display="off"/>
-<attribute name="PIN-LENGTH" value="10mm" x="41.59" y="32.38" size="1.778" layer="27" display="off"/>
-<attribute name="THREAD" value="M4" x="20" y="40" size="1.778" layer="27" display="off"/>
+<element name="3" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" package="WA-SMSI_9774100482" package3d_urn="urn:adsk.eagle:package:14321898/2" value="M4 x 10mm" x="20.32" y="40.64" smashed="yes">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9774100482.pdf" x="41.91" y="33.02" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-DIAMETER" value="5.2mm" x="41.91" y="33.02" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-THREAD-LENGTH" value="-" x="20.32" y="40.64" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="20.32" y="46.14" size="5.08" layer="25" align="bottom-center"/>
+<attribute name="OUTER-DIAMETER" value="8.2mm" x="41.91" y="33.02" size="1.778" layer="27" display="off"/>
+<attribute name="PART-NUMBER" value=" 9774100482 " x="41.91" y="33.02" size="1.778" layer="27" display="off"/>
+<attribute name="PIN-LENGTH" value="10mm" x="41.91" y="33.02" size="1.778" layer="27" display="off"/>
+<attribute name="THREAD" value="M4" x="20.32" y="40.64" size="1.778" layer="27" display="off"/>
 </element>
-<element name="IN1" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" package="WA-SMSI_9774100482" package3d_urn="urn:adsk.eagle:package:14321898/2" value="M4 x 10mm" x="-20" y="40" smashed="yes">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9774100482.pdf" x="15.56" y="32.38" size="1.778" layer="27" display="off"/>
-<attribute name="INNER-DIAMETER" value="5.2mm" x="15.56" y="32.38" size="1.778" layer="27" display="off"/>
-<attribute name="INNER-THREAD-LENGTH" value="-" x="-20" y="40" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-20" y="45.5" size="5.08" layer="25" align="bottom-center"/>
-<attribute name="OUTER-DIAMETER" value="8.2mm" x="15.56" y="32.38" size="1.778" layer="27" display="off"/>
-<attribute name="PART-NUMBER" value=" 9774100482 " x="15.56" y="32.38" size="1.778" layer="27" display="off"/>
-<attribute name="PIN-LENGTH" value="10mm" x="15.56" y="32.38" size="1.778" layer="27" display="off"/>
-<attribute name="THREAD" value="M4" x="-20" y="40" size="1.778" layer="27" display="off"/>
+<element name="1" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" package="WA-SMSI_9774100482" package3d_urn="urn:adsk.eagle:package:14321898/2" value="M4 x 10mm" x="0" y="40.64" smashed="yes">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9774100482.pdf" x="35.56" y="33.02" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-DIAMETER" value="5.2mm" x="35.56" y="33.02" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-THREAD-LENGTH" value="-" x="0" y="40.64" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="0" y="46.14" size="5.08" layer="25" align="bottom-center"/>
+<attribute name="OUTER-DIAMETER" value="8.2mm" x="35.56" y="33.02" size="1.778" layer="27" display="off"/>
+<attribute name="PART-NUMBER" value=" 9774100482 " x="35.56" y="33.02" size="1.778" layer="27" display="off"/>
+<attribute name="PIN-LENGTH" value="10mm" x="35.56" y="33.02" size="1.778" layer="27" display="off"/>
+<attribute name="THREAD" value="M4" x="0" y="40.64" size="1.778" layer="27" display="off"/>
 </element>
-<element name="GND" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" package="WA-SMSI_9774100482" package3d_urn="urn:adsk.eagle:package:14321898/2" value="M4 x 10mm" x="40" y="40" smashed="yes">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9774100482.pdf" x="61.59" y="17.14" size="1.778" layer="27" display="off"/>
-<attribute name="INNER-DIAMETER" value="5.2mm" x="61.59" y="17.14" size="1.778" layer="27" display="off"/>
-<attribute name="INNER-THREAD-LENGTH" value="-" x="40" y="40" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="40" y="45.5" size="5.08" layer="25" align="bottom-center"/>
-<attribute name="OUTER-DIAMETER" value="8.2mm" x="61.59" y="17.14" size="1.778" layer="27" display="off"/>
-<attribute name="PART-NUMBER" value=" 9774100482 " x="61.59" y="17.14" size="1.778" layer="27" display="off"/>
-<attribute name="PIN-LENGTH" value="10mm" x="61.59" y="17.14" size="1.778" layer="27" display="off"/>
-<attribute name="THREAD" value="M4" x="40" y="40" size="1.778" layer="27" display="off"/>
+<element name="5" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" package="WA-SMSI_9774100482" package3d_urn="urn:adsk.eagle:package:14321898/2" value="M4 x 10mm" x="40.64" y="40.64" smashed="yes">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9774100482.pdf" x="62.23" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-DIAMETER" value="5.2mm" x="62.23" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-THREAD-LENGTH" value="-" x="40.64" y="40.64" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="40.64" y="46.14" size="5.08" layer="25" align="bottom-center"/>
+<attribute name="OUTER-DIAMETER" value="8.2mm" x="62.23" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="PART-NUMBER" value=" 9774100482 " x="62.23" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="PIN-LENGTH" value="10mm" x="62.23" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="THREAD" value="M4" x="40.64" y="40.64" size="1.778" layer="27" display="off"/>
 </element>
-<element name="OUT1" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" package="WA-SMSI_9774100482" package3d_urn="urn:adsk.eagle:package:14321898/2" value="M4 x 10mm" x="-20" y="-40" smashed="yes">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9774100482.pdf" x="15.56" y="-62.86" size="1.778" layer="27" display="off"/>
-<attribute name="INNER-DIAMETER" value="5.2mm" x="15.56" y="-62.86" size="1.778" layer="27" display="off"/>
-<attribute name="INNER-THREAD-LENGTH" value="-" x="-20" y="-40" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-20" y="-34.5" size="5.08" layer="25" align="bottom-center"/>
-<attribute name="OUTER-DIAMETER" value="8.2mm" x="15.56" y="-62.86" size="1.778" layer="27" display="off"/>
-<attribute name="PART-NUMBER" value=" 9774100482 " x="15.56" y="-62.86" size="1.778" layer="27" display="off"/>
-<attribute name="PIN-LENGTH" value="10mm" x="15.56" y="-62.86" size="1.778" layer="27" display="off"/>
-<attribute name="THREAD" value="M4" x="-20" y="-40" size="1.778" layer="27" display="off"/>
+<element name="2" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" package="WA-SMSI_9774100482" package3d_urn="urn:adsk.eagle:package:14321898/2" value="M4 x 10mm" x="0" y="-40.64" smashed="yes">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9774100482.pdf" x="35.56" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-DIAMETER" value="5.2mm" x="35.56" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-THREAD-LENGTH" value="-" x="0" y="-40.64" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="0" y="-35.14" size="5.08" layer="25" align="bottom-center"/>
+<attribute name="OUTER-DIAMETER" value="8.2mm" x="35.56" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="PART-NUMBER" value=" 9774100482 " x="35.56" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="PIN-LENGTH" value="10mm" x="35.56" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="THREAD" value="M4" x="0" y="-40.64" size="1.778" layer="27" display="off"/>
 </element>
-<element name="OUT0" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" package="WA-SMSI_9774100482" package3d_urn="urn:adsk.eagle:package:14321898/2" value="M4 x 10mm" x="20" y="-40" smashed="yes">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9774100482.pdf" x="41.59" y="-78.1" size="1.778" layer="27" display="off"/>
-<attribute name="INNER-DIAMETER" value="5.2mm" x="41.59" y="-78.1" size="1.778" layer="27" display="off"/>
-<attribute name="INNER-THREAD-LENGTH" value="-" x="20" y="-40" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="20" y="-34.5" size="5.08" layer="25" align="bottom-center"/>
-<attribute name="OUTER-DIAMETER" value="8.2mm" x="41.59" y="-78.1" size="1.778" layer="27" display="off"/>
-<attribute name="PART-NUMBER" value=" 9774100482 " x="41.59" y="-78.1" size="1.778" layer="27" display="off"/>
-<attribute name="PIN-LENGTH" value="10mm" x="41.59" y="-78.1" size="1.778" layer="27" display="off"/>
-<attribute name="THREAD" value="M4" x="20" y="-40" size="1.778" layer="27" display="off"/>
+<element name="4" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" package="WA-SMSI_9774100482" package3d_urn="urn:adsk.eagle:package:14321898/2" value="M4 x 10mm" x="20.32" y="-40.64" smashed="yes">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9774100482.pdf" x="41.91" y="-78.74" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-DIAMETER" value="5.2mm" x="41.91" y="-78.74" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-THREAD-LENGTH" value="-" x="20.32" y="-40.64" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="20.32" y="-35.14" size="5.08" layer="25" align="bottom-center"/>
+<attribute name="OUTER-DIAMETER" value="8.2mm" x="41.91" y="-78.74" size="1.778" layer="27" display="off"/>
+<attribute name="PART-NUMBER" value=" 9774100482 " x="41.91" y="-78.74" size="1.778" layer="27" display="off"/>
+<attribute name="PIN-LENGTH" value="10mm" x="41.91" y="-78.74" size="1.778" layer="27" display="off"/>
+<attribute name="THREAD" value="M4" x="20.32" y="-40.64" size="1.778" layer="27" display="off"/>
 </element>
-<element name="VS" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" package="WA-SMSI_9774100482" package3d_urn="urn:adsk.eagle:package:14321898/2" value="M4 x 10mm" x="40" y="-40" smashed="yes">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9774100482.pdf" x="75.56" y="-78.1" size="1.778" layer="27" display="off"/>
-<attribute name="INNER-DIAMETER" value="5.2mm" x="75.56" y="-78.1" size="1.778" layer="27" display="off"/>
-<attribute name="INNER-THREAD-LENGTH" value="-" x="40" y="-40" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="40" y="-34.5" size="5.08" layer="25" align="bottom-center"/>
-<attribute name="OUTER-DIAMETER" value="8.2mm" x="75.56" y="-78.1" size="1.778" layer="27" display="off"/>
-<attribute name="PART-NUMBER" value=" 9774100482 " x="75.56" y="-78.1" size="1.778" layer="27" display="off"/>
-<attribute name="PIN-LENGTH" value="10mm" x="75.56" y="-78.1" size="1.778" layer="27" display="off"/>
-<attribute name="THREAD" value="M4" x="40" y="-40" size="1.778" layer="27" display="off"/>
+<element name="6" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" package="WA-SMSI_9774100482" package3d_urn="urn:adsk.eagle:package:14321898/2" value="M4 x 10mm" x="40.64" y="-40.64" smashed="yes">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9774100482.pdf" x="76.2" y="-78.74" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-DIAMETER" value="5.2mm" x="76.2" y="-78.74" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-THREAD-LENGTH" value="-" x="40.64" y="-40.64" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="40.64" y="-35.14" size="5.08" layer="25" align="bottom-center"/>
+<attribute name="OUTER-DIAMETER" value="8.2mm" x="76.2" y="-78.74" size="1.778" layer="27" display="off"/>
+<attribute name="PART-NUMBER" value=" 9774100482 " x="76.2" y="-78.74" size="1.778" layer="27" display="off"/>
+<attribute name="PIN-LENGTH" value="10mm" x="76.2" y="-78.74" size="1.778" layer="27" display="off"/>
+<attribute name="THREAD" value="M4" x="40.64" y="-40.64" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J1" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" package="638207222006" package3d_urn="urn:adsk.eagle:package:15267959/3" value=" 638207222006 " x="20.32" y="0" smashed="yes">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm" x="20.32" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/638207222006.pdf" x="20.32" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="GENDER" value="Male" x="20.32" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="IR" value="16A" x="20.32" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUNT" value="THT" x="20.32" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="20.32" y="5.85" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="PART-NUMBER" value=" 638207222006 " x="20.32" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PINS" value=" 6 " x="20.32" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PITCH" value="5.08mm" x="20.32" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="Vertical" x="20.32" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="16.62" y="-8.25" size="1.27" layer="27"/>
+<attribute name="WORKING-VOLTAGE" value="300V(AC)" x="20.32" y="0" size="1.778" layer="27" display="off"/>
+</element>
+<element name="J2" library="Wurth_Connectors_WR-FAST" library_urn="urn:adsk.eagle:library:15267884" package="638207222004" package3d_urn="urn:adsk.eagle:package:15267961/3" value=" 638207222004 " x="-30.48" y="0" smashed="yes">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm" x="-30.48" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/638207222004.pdf" x="-30.48" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="GENDER" value="Male" x="-30.48" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="IR" value="16A" x="-30.48" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUNT" value="THT" x="-30.48" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-30.48" y="5.85" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="PART-NUMBER" value=" 638207222004 " x="-30.48" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PINS" value=" 4 " x="-30.48" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PITCH" value="5.08mm" x="-30.48" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="Vertical" x="-30.48" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-34.18" y="-8.25" size="1.27" layer="27"/>
+<attribute name="WORKING-VOLTAGE" value="300V(AC)" x="-30.48" y="0" size="1.778" layer="27" display="off"/>
+</element>
+<element name="3'" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" package="WA-SMSI_9774100482" package3d_urn="urn:adsk.eagle:package:14321898/2" value="M4 x 10mm" x="-20.32" y="40.64" smashed="yes">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9774100482.pdf" x="-60.96" y="81.28" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-DIAMETER" value="5.2mm" x="-60.96" y="81.28" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-THREAD-LENGTH" value="-" x="-60.96" y="81.28" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-20.32" y="46.04" size="5.08" layer="25" align="bottom-center"/>
+<attribute name="OUTER-DIAMETER" value="8.2mm" x="-60.96" y="81.28" size="1.778" layer="27" display="off"/>
+<attribute name="PART-NUMBER" value=" 9774100482 " x="-60.96" y="81.28" size="1.778" layer="27" display="off"/>
+<attribute name="PIN-LENGTH" value="10mm" x="-60.96" y="81.28" size="1.778" layer="27" display="off"/>
+<attribute name="THREAD" value="M4" x="-60.96" y="81.28" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-22.32" y="34.44" size="0.8128" layer="27"/>
+</element>
+<element name="1'" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" package="WA-SMSI_9774100482" package3d_urn="urn:adsk.eagle:package:14321898/2" value="M4 x 10mm" x="-40.64" y="40.64" smashed="yes">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9774100482.pdf" x="-121.92" y="81.28" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-DIAMETER" value="5.2mm" x="-121.92" y="81.28" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-THREAD-LENGTH" value="-" x="-121.92" y="81.28" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-40.64" y="46.04" size="5.08" layer="25" align="bottom-center"/>
+<attribute name="OUTER-DIAMETER" value="8.2mm" x="-121.92" y="81.28" size="1.778" layer="27" display="off"/>
+<attribute name="PART-NUMBER" value=" 9774100482 " x="-121.92" y="81.28" size="1.778" layer="27" display="off"/>
+<attribute name="PIN-LENGTH" value="10mm" x="-121.92" y="81.28" size="1.778" layer="27" display="off"/>
+<attribute name="THREAD" value="M4" x="-121.92" y="81.28" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-42.64" y="34.44" size="0.8128" layer="27"/>
+</element>
+<element name="2'" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" package="WA-SMSI_9774100482" package3d_urn="urn:adsk.eagle:package:14321898/2" value="M4 x 10mm" x="-40.64" y="-40.64" smashed="yes">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9774100482.pdf" x="-121.92" y="20.32" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-DIAMETER" value="5.2mm" x="-121.92" y="20.32" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-THREAD-LENGTH" value="-" x="-121.92" y="20.32" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-40.64" y="-35.24" size="5.08" layer="25" align="bottom-center"/>
+<attribute name="OUTER-DIAMETER" value="8.2mm" x="-121.92" y="20.32" size="1.778" layer="27" display="off"/>
+<attribute name="PART-NUMBER" value=" 9774100482 " x="-121.92" y="20.32" size="1.778" layer="27" display="off"/>
+<attribute name="PIN-LENGTH" value="10mm" x="-121.92" y="20.32" size="1.778" layer="27" display="off"/>
+<attribute name="THREAD" value="M4" x="-121.92" y="20.32" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-42.64" y="-46.84" size="0.8128" layer="27"/>
+</element>
+<element name="4'" library="Wurth_Assembly_WA-SMSI" library_urn="urn:adsk.eagle:library:14418591" package="WA-SMSI_9774100482" package3d_urn="urn:adsk.eagle:package:14321898/2" value="M4 x 10mm" x="-20.32" y="-40.64" smashed="yes">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/9774100482.pdf" x="-142.24" y="20.32" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-DIAMETER" value="5.2mm" x="-142.24" y="20.32" size="1.778" layer="27" display="off"/>
+<attribute name="INNER-THREAD-LENGTH" value="-" x="-142.24" y="20.32" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-20.32" y="-35.24" size="5.08" layer="25" align="bottom-center"/>
+<attribute name="OUTER-DIAMETER" value="8.2mm" x="-142.24" y="20.32" size="1.778" layer="27" display="off"/>
+<attribute name="PART-NUMBER" value=" 9774100482 " x="-142.24" y="20.32" size="1.778" layer="27" display="off"/>
+<attribute name="PIN-LENGTH" value="10mm" x="-142.24" y="20.32" size="1.778" layer="27" display="off"/>
+<attribute name="THREAD" value="M4" x="-142.24" y="20.32" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-22.32" y="-46.84" size="0.8128" layer="27"/>
 </element>
 </elements>
 <signals>
+<signal name="N$1">
+<contactref element="J1" pad="1"/>
+<contactref element="J1" pad="A1"/>
+<contactref element="1" pad="1"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="4.826" layer="1"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="12.7" width="4.826" layer="1"/>
+<wire x1="0" y1="25.4" x2="0" y2="40.64" width="10.16" layer="1"/>
+<wire x1="7.62" y1="12.7" x2="7.62" y2="17.78" width="7.62" layer="1"/>
+<wire x1="7.62" y1="17.78" x2="0" y2="25.4" width="7.62" layer="1"/>
+</signal>
+<signal name="N$2">
+<contactref element="J1" pad="A2"/>
+<contactref element="J1" pad="2"/>
+<contactref element="2" pad="1"/>
+<wire x1="12.7" y1="2.54" x2="12.7" y2="-2.54" width="4.826" layer="1"/>
+<wire x1="12.7" y1="-2.54" x2="12.7" y2="-12.7" width="4.826" layer="1"/>
+<wire x1="0" y1="-25.4" x2="0" y2="-40.64" width="10.16" layer="1"/>
+<wire x1="12.7" y1="-12.7" x2="0" y2="-25.4" width="7.62" layer="1"/>
+</signal>
+<signal name="N$3">
+<contactref element="3" pad="1"/>
+<contactref element="J1" pad="3"/>
+<contactref element="J1" pad="A3"/>
+<wire x1="17.78" y1="2.54" x2="17.78" y2="-2.54" width="4.826" layer="1"/>
+<wire x1="17.78" y1="2.54" x2="17.78" y2="12.7" width="4.826" layer="1"/>
+<wire x1="20.32" y1="25.4" x2="20.32" y2="40.64" width="10.16" layer="1"/>
+<wire x1="17.78" y1="12.7" x2="17.78" y2="22.86" width="7.62" layer="1"/>
+<wire x1="17.78" y1="22.86" x2="20.32" y2="25.4" width="7.62" layer="1"/>
+</signal>
+<signal name="N$4">
+<contactref element="J1" pad="4"/>
+<contactref element="J1" pad="A4"/>
+<contactref element="4" pad="1"/>
+<wire x1="22.86" y1="2.54" x2="22.86" y2="-2.54" width="4.826" layer="1"/>
+<wire x1="22.86" y1="-2.54" x2="22.86" y2="-12.7" width="4.826" layer="1"/>
+<wire x1="20.32" y1="-25.4" x2="20.32" y2="-40.64" width="10.16" layer="1"/>
+<wire x1="22.86" y1="-12.7" x2="22.86" y2="-22.86" width="7.62" layer="1"/>
+<wire x1="22.86" y1="-22.86" x2="20.32" y2="-25.4" width="7.62" layer="1"/>
+</signal>
+<signal name="N$5">
+<contactref element="J1" pad="A5"/>
+<contactref element="J1" pad="5"/>
+<contactref element="5" pad="1"/>
+<wire x1="27.94" y1="2.54" x2="27.94" y2="-2.54" width="4.826" layer="1"/>
+<wire x1="27.94" y1="2.54" x2="27.94" y2="12.7" width="4.826" layer="1"/>
+<wire x1="40.64" y1="25.4" x2="40.64" y2="40.64" width="10.16" layer="1"/>
+<wire x1="27.94" y1="12.7" x2="40.64" y2="25.4" width="7.62" layer="1"/>
+</signal>
+<signal name="N$6">
+<contactref element="J1" pad="A6"/>
+<contactref element="J1" pad="6"/>
+<contactref element="6" pad="1"/>
+<wire x1="33.02" y1="2.54" x2="33.02" y2="-2.54" width="4.826" layer="1"/>
+<wire x1="33.02" y1="-2.54" x2="33.02" y2="-12.7" width="4.826" layer="1"/>
+<wire x1="40.64" y1="-25.4" x2="40.64" y2="-40.64" width="10.16" layer="1"/>
+<wire x1="33.02" y1="-12.7" x2="33.02" y2="-17.78" width="7.62" layer="1"/>
+<wire x1="33.02" y1="-17.78" x2="40.64" y2="-25.4" width="7.62" layer="1"/>
+</signal>
+<signal name="N$7">
+<contactref element="1'" pad="1"/>
+<contactref element="J2" pad="1"/>
+<contactref element="J2" pad="A1"/>
+<wire x1="-40.64" y1="25.4" x2="-40.64" y2="40.64" width="10.16" layer="1"/>
+<wire x1="-38.1" y1="-2.54" x2="-38.1" y2="2.54" width="4.826" layer="1"/>
+<wire x1="-38.1" y1="2.54" x2="-38.1" y2="10.16" width="4.826" layer="1"/>
+<wire x1="-38.1" y1="10.16" x2="-38.1" y2="22.86" width="7.62" layer="1"/>
+<wire x1="-38.1" y1="22.86" x2="-40.64" y2="25.4" width="7.62" layer="1"/>
+</signal>
+<signal name="N$8">
+<contactref element="2'" pad="1"/>
+<contactref element="J2" pad="A2"/>
+<contactref element="J2" pad="2"/>
+<wire x1="-40.64" y1="-25.4" x2="-40.64" y2="-40.64" width="10.16" layer="1"/>
+<wire x1="-33.02" y1="-2.54" x2="-33.02" y2="2.54" width="4.826" layer="1"/>
+<wire x1="-33.02" y1="-2.54" x2="-33.02" y2="-10.16" width="4.826" layer="1"/>
+<wire x1="-33.02" y1="-10.16" x2="-33.02" y2="-17.78" width="7.62" layer="1"/>
+<wire x1="-33.02" y1="-17.78" x2="-40.64" y2="-25.4" width="7.62" layer="1"/>
+</signal>
+<signal name="N$9">
+<contactref element="4'" pad="1"/>
+<contactref element="J2" pad="4"/>
+<contactref element="J2" pad="A4"/>
+<wire x1="-20.32" y1="-25.4" x2="-20.32" y2="-40.64" width="10.16" layer="1"/>
+<wire x1="-22.86" y1="2.54" x2="-22.86" y2="-2.54" width="4.826" layer="1"/>
+<wire x1="-22.86" y1="-2.54" x2="-22.86" y2="-10.16" width="4.826" layer="1"/>
+<wire x1="-22.86" y1="-10.16" x2="-22.86" y2="-22.86" width="7.62" layer="1"/>
+<wire x1="-22.86" y1="-22.86" x2="-20.32" y2="-25.4" width="7.62" layer="1"/>
+</signal>
+<signal name="N$10">
+<contactref element="J2" pad="3"/>
+<contactref element="J2" pad="A3"/>
+<contactref element="3'" pad="1"/>
+<wire x1="-20.32" y1="25.4" x2="-20.32" y2="40.64" width="10.16" layer="1"/>
+<wire x1="-27.94" y1="2.54" x2="-27.94" y2="-2.54" width="4.826" layer="1"/>
+<wire x1="-27.94" y1="2.54" x2="-27.94" y2="10.16" width="4.826" layer="1"/>
+<wire x1="-27.94" y1="10.16" x2="-27.94" y2="17.78" width="7.62" layer="1"/>
+<wire x1="-27.94" y1="17.78" x2="-20.32" y2="25.4" width="7.62" layer="1"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
@@ -948,20 +1277,6 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
-<errors>
-<approved hash="4,1,47475f1cf6f6eead"/>
-<approved hash="4,1,a779bf3b76d16e93"/>
-<approved hash="4,1,a779bf3b76d16e93"/>
-<approved hash="4,1,a779bf3b76d16e93"/>
-<approved hash="4,1,19ebb1e275c7be04"/>
-<approved hash="4,1,a779bf3b76d16e93"/>
-<approved hash="4,1,0f1908f83c0c3bed"/>
-<approved hash="4,1,a779bf3b76d16e93"/>
-<approved hash="4,1,47475f1cf6f6eead"/>
-<approved hash="4,1,01baa967ce51a2f0"/>
-<approved hash="4,1,7debb8541135b764"/>
-<approved hash="4,1,a779bf3b76d16e93"/>
-</errors>
 </board>
 </drawing>
 <compatibility>
@@ -969,6 +1284,11 @@ design rules under a new name.</description>
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
